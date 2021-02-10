@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+body {
+  background-color: #6c6e74;
+}
+
+#mainWindow {
+  /* Position */
+  position: relative;
+  margin: auto;
+  top: 140px;
+
+  /* Design */
+  background-color: #36393f;
+  border-radius: 30px;
+
+  /* Dimensions */
+  width: 450px;
+  height: 600px;
+}
+
+#mainWindowHeader {
+  background-color: #2f3034;
+  height: 80px;
+  border-radius: 30px;
+}
+
+#mainWindowHeading {
+  /* Position */
+  position: relative;
+  top: 15px;
+  left: 120px;
+
+  /* Design */
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  /* Dimensions */
+}
+
+/* Buttons */
+#a1 {
+  /* Position */
+  position: absolute;
+  top: 110px;
+  left: 60px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#a2 {
+  /* Position */
+  position: absolute;
+  left: 165px;
+  top: 110px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#a3 {
+  /* Position */
+  position: absolute;
+  top: 110px;
+  left: 270px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#b1 {
+  /* Position */
+  position: absolute;
+  top: 220px;
+  left: 60px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#b2 {
+  /* Position */
+  position: absolute;
+  top: 220px;
+  left: 165px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#b3 {
+  /* Position */
+  position: absolute;
+  top: 220px;
+  left: 270px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#c1 {
+  /* Position */
+  position: absolute;
+  top: 330px;
+  left: 60px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#c2 {
+  /* Position */
+  position: absolute;
+  top: 330px;
+  left: 165px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#c3 {
+  /* Position */
+  position: absolute;
+  top: 330px;
+  left: 270px;
+
+  /* Design */
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* Dimensions */
+  width: 100px;
+  height: 100px;
+}
+
+#gameOver {
+  position: absolute;
+  background-color: #2f3034;
+  top: 450px;
+  height: 70px;
+  width: 450px;
+}
+
+#gameOverResult {
+  /* Position */
+  position: relative;
+  left: 90px;
+  top: 10px;
+
+  /* Design */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+
+  /* Dimensions */
+  height: 45px;
+  width: 250px;
+}
+
+#playAgain {
+  position: absolute;
+  background-color: #2f3034;
+  top: 540px;
+  height: 60px;
+  width: 450px;
+  border-radius: 30px;
+}
+
+#playAgainButton {
+    height: 40px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    border-radius: 15px;
+    left: 140px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    animation: fade 1s;
+    transition: 1s;
+}
+
+#playAgainButton:hover {
+  background-color: aquamarine;
+}
+.hidden {
+    display: none;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0%;
+    }
+
+    30% {
+        opacity: 30%;
+    }
+
+    50% {
+        opacity: 50%;  
+    }
+
+    70% {
+        opacity: 70%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#gameButtons button {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#githubProfile {
+  /* Position */
+  position: relative;
+
+  /* Design */
+  font-family: "Poppins", sans-serif;
+  color: #36393f;
+  
+  /* Dimensions */
+  top: 515px;
+  left: 5px;
+}
+
+
+img {
+  /* Position */
+  position: absolute;
+  top: -80px;
+  left: 175px;
+  /* Design */
+  border-radius: 50%;
+  
+  /* Dimensions */
+  height: 70px;
+  width: 70px;
+}

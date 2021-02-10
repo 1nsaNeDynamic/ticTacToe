@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="ticTacToeLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div id="mainWindow">
+
+            <!-- 1nsaNe Logo -->
+            <a href="https://github.com/1nsaNeDynamic">
+            <img src="1nsaNeLogo.jpg" alt="1nsaNeLogo.jpg" id="1nsaNeLogo">
+            </a>
+
+            <div id="mainWindowHeader">
+                <h1 id="mainWindowHeading">Tic Tac Toe!</h1>
+            </div>
+
+            <div id="gameButtons">
+                <div id="rowA">
+                    <button id="a1" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="a2" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="a3" class="playButtons" onclick="startGame(id)"></button>
+                </div>
+
+                <div id="rowB">
+                    <button id="b1" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="b2" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="b3" class="playButtons" onclick="startGame(id)"></button>
+                </div>
+
+                <div id="rowC">
+                    <button id="c1" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="c2" class="playButtons" onclick="startGame(id)"></button>
+                    <button id="c3" class="playButtons" onclick="startGame(id)"></button>
+                </div>
+            </div>
+
+            <div id="gameOver">
+                <input type="text" readonly id="gameOverResult">
+            </div>
+            
+            <div id="playAgain">
+                <button id="playAgainButton" class="hidden" onclick="startGameAgain()">Play Again?</button>
+            </div>
+
+            <a href="https://github.com/1nsaNeDynamic" id="githubProfile">
+            
+                <h1 id="">github.com/1nsaNeDynamic</h1></a>
+    </div>
+</body>
+</html>
